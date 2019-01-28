@@ -363,7 +363,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04411BD2AFFB06B0A4CD0703 /* Pods-CoffeeBreak.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R327F4CW86;
 				INFOPLIST_FILE = CoffeeBreak/Info.plist;
@@ -382,7 +382,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBBCC85B64D755E2FC5CC56B /* Pods-CoffeeBreak.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R327F4CW86;
 				INFOPLIST_FILE = CoffeeBreak/Info.plist;
