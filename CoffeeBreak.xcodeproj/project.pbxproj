@@ -7,8 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D1D420321FF27BE004AA85C /* HomeDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41E521FF27BE004AA85C /* HomeDatasourceController.swift */; };
+		7D1D420421FF27BE004AA85C /* HomePostDatasourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41E621FF27BE004AA85C /* HomePostDatasourceCell.swift */; };
+		7D1D420521FF27BE004AA85C /* HomeDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41E721FF27BE004AA85C /* HomeDatasource.swift */; };
+		7D1D420621FF27BE004AA85C /* ActivityDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41E921FF27BE004AA85C /* ActivityDatasourceController.swift */; };
+		7D1D420721FF27BE004AA85C /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41EB21FF27BE004AA85C /* ForgotPasswordController.swift */; };
+		7D1D420821FF27BE004AA85C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41EC21FF27BE004AA85C /* LoginController.swift */; };
+		7D1D420921FF27BE004AA85C /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41ED21FF27BE004AA85C /* SignUpController.swift */; };
+		7D1D420A21FF27BE004AA85C /* SharePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41EF21FF27BE004AA85C /* SharePostViewController.swift */; };
+		7D1D420B21FF27BE004AA85C /* DummyAddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41F021FF27BE004AA85C /* DummyAddPostViewController.swift */; };
+		7D1D420C21FF27BE004AA85C /* SearchDatasourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41F221FF27BE004AA85C /* SearchDatasourceCell.swift */; };
+		7D1D420D21FF27BE004AA85C /* SearchDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41F321FF27BE004AA85C /* SearchDatasource.swift */; };
+		7D1D420E21FF27BE004AA85C /* SearchDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41F421FF27BE004AA85C /* SearchDatasourceController.swift */; };
+		7D1D420F21FF27BE004AA85C /* UserProfileDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41F621FF27BE004AA85C /* UserProfileDatasource.swift */; };
+		7D1D421021FF27BE004AA85C /* UserStatsDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41F821FF27BE004AA85C /* UserStatsDatasource.swift */; };
+		7D1D421121FF27BE004AA85C /* UserStatsDatasourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41F921FF27BE004AA85C /* UserStatsDatasourceCell.swift */; };
+		7D1D421221FF27BE004AA85C /* UserStatsDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41FA21FF27BE004AA85C /* UserStatsDatasourceController.swift */; };
+		7D1D421321FF27BE004AA85C /* UserProfileDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41FB21FF27BE004AA85C /* UserProfileDatasourceController.swift */; };
+		7D1D421421FF27BE004AA85C /* UserProfilePostDatasourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41FC21FF27BE004AA85C /* UserProfilePostDatasourceCell.swift */; };
+		7D1D421521FF27BE004AA85C /* UserProfileHeaderDatasourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41FD21FF27BE004AA85C /* UserProfileHeaderDatasourceCell.swift */; };
+		7D1D421621FF27BE004AA85C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41FF21FF27BE004AA85C /* MainTabBarController.swift */; };
+		7D1D421721FF27BE004AA85C /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D420121FF27BE004AA85C /* ScreenSize.swift */; };
+		7D1D421821FF27BE004AA85C /* Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D420221FF27BE004AA85C /* Setup.swift */; };
+		7D1D421F21FF27C8004AA85C /* FirebaseMagicModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D421A21FF27C8004AA85C /* FirebaseMagicModels.swift */; };
+		7D1D422021FF27C8004AA85C /* FirebaseMagic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D421B21FF27C8004AA85C /* FirebaseMagic.swift */; };
+		7D1D422121FF27C8004AA85C /* FirebaseMagicExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D421C21FF27C8004AA85C /* FirebaseMagicExtensions.swift */; };
+		7D1D422221FF27C8004AA85C /* FirebaseMagicSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D421D21FF27C8004AA85C /* FirebaseMagicSetup.swift */; };
+		7D1D422321FF27C8004AA85C /* FirebaseMagicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D421E21FF27C8004AA85C /* FirebaseMagicService.swift */; };
+		7D1D422721FF2CAA004AA85C /* SearchDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41F421FF27BE004AA85C /* SearchDatasourceController.swift */; };
+		7D1D422821FF2CAA004AA85C /* UserStatsDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41FA21FF27BE004AA85C /* UserStatsDatasourceController.swift */; };
+		7D1D422921FF2CAA004AA85C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41FF21FF27BE004AA85C /* MainTabBarController.swift */; };
+		7D1D422A21FF2CAA004AA85C /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D420121FF27BE004AA85C /* ScreenSize.swift */; };
+		7D1D422B21FF2CAA004AA85C /* FirebaseMagicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D421E21FF27C8004AA85C /* FirebaseMagicService.swift */; };
+		7D1D422C21FF2CAA004AA85C /* DummyAddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41F021FF27BE004AA85C /* DummyAddPostViewController.swift */; };
+		7D1D422D21FF2CAA004AA85C /* HomeDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41E721FF27BE004AA85C /* HomeDatasource.swift */; };
+		7D1D422E21FF2CAA004AA85C /* UserStatsDatasourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41F921FF27BE004AA85C /* UserStatsDatasourceCell.swift */; };
+		7D1D422F21FF2CAA004AA85C /* Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D420221FF27BE004AA85C /* Setup.swift */; };
+		7D1D423021FF2CAA004AA85C /* UserProfileHeaderDatasourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41FD21FF27BE004AA85C /* UserProfileHeaderDatasourceCell.swift */; };
+		7D1D423121FF2CAA004AA85C /* FirebaseMagicExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D421C21FF27C8004AA85C /* FirebaseMagicExtensions.swift */; };
+		7D1D423221FF2CAA004AA85C /* SearchDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41F321FF27BE004AA85C /* SearchDatasource.swift */; };
+		7D1D423321FF2CAA004AA85C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D68B89321FF1E6C008A211F /* AppDelegate.swift */; };
+		7D1D423421FF2CAA004AA85C /* UserProfilePostDatasourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41FC21FF27BE004AA85C /* UserProfilePostDatasourceCell.swift */; };
+		7D1D423521FF2CAA004AA85C /* FirebaseMagic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D421B21FF27C8004AA85C /* FirebaseMagic.swift */; };
+		7D1D423621FF2CAA004AA85C /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41ED21FF27BE004AA85C /* SignUpController.swift */; };
+		7D1D423721FF2CAA004AA85C /* HomePostDatasourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41E621FF27BE004AA85C /* HomePostDatasourceCell.swift */; };
+		7D1D423821FF2CAA004AA85C /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41EB21FF27BE004AA85C /* ForgotPasswordController.swift */; };
+		7D1D423921FF2CAA004AA85C /* ActivityDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41E921FF27BE004AA85C /* ActivityDatasourceController.swift */; };
+		7D1D423A21FF2CAA004AA85C /* UserProfileDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41F621FF27BE004AA85C /* UserProfileDatasource.swift */; };
+		7D1D423B21FF2CAA004AA85C /* UserProfileDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41FB21FF27BE004AA85C /* UserProfileDatasourceController.swift */; };
+		7D1D423C21FF2CAA004AA85C /* FirebaseMagicModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D421A21FF27C8004AA85C /* FirebaseMagicModels.swift */; };
+		7D1D423D21FF2CAA004AA85C /* SharePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41EF21FF27BE004AA85C /* SharePostViewController.swift */; };
+		7D1D423E21FF2CAA004AA85C /* FirebaseMagicSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D421D21FF27C8004AA85C /* FirebaseMagicSetup.swift */; };
+		7D1D423F21FF2CAA004AA85C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41EC21FF27BE004AA85C /* LoginController.swift */; };
+		7D1D424021FF2CAA004AA85C /* HomeDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41E521FF27BE004AA85C /* HomeDatasourceController.swift */; };
+		7D1D424121FF2CAA004AA85C /* UserStatsDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41F821FF27BE004AA85C /* UserStatsDatasource.swift */; };
+		7D1D424221FF2CAA004AA85C /* SearchDatasourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D41F221FF27BE004AA85C /* SearchDatasourceCell.swift */; };
+		7D1D424321FF2CAA004AA85C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A4BE421FF09B700BF936E /* ViewController.swift */; };
+		7D1D424521FF2CAA004AA85C /* Pods_CoffeeBreak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11160BFBBD1DB4DD43B74504 /* Pods_CoffeeBreak.framework */; };
+		7D1D424721FF2CAA004AA85C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D9A4BEB21FF09B900BF936E /* LaunchScreen.storyboard */; };
+		7D1D424821FF2CAA004AA85C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D68B89121FF1CD1008A211F /* GoogleService-Info.plist */; };
+		7D1D424921FF2CAA004AA85C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D9A4BE921FF09B900BF936E /* Assets.xcassets */; };
+		7D1D424A21FF2CAA004AA85C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D9A4BE621FF09B700BF936E /* Main.storyboard */; };
 		7D68B89221FF1CD1008A211F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D68B89121FF1CD1008A211F /* GoogleService-Info.plist */; };
-		7D9A4BE321FF09B700BF936E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A4BE221FF09B700BF936E /* AppDelegate.swift */; };
+		7D68B89421FF1E6C008A211F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D68B89321FF1E6C008A211F /* AppDelegate.swift */; };
 		7D9A4BE521FF09B700BF936E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A4BE421FF09B700BF936E /* ViewController.swift */; };
 		7D9A4BE821FF09B700BF936E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D9A4BE621FF09B700BF936E /* Main.storyboard */; };
 		7D9A4BEA21FF09B900BF936E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D9A4BE921FF09B900BF936E /* Assets.xcassets */; };
@@ -19,9 +80,38 @@
 /* Begin PBXFileReference section */
 		04411BD2AFFB06B0A4CD0703 /* Pods-CoffeeBreak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeBreak.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeeBreak/Pods-CoffeeBreak.debug.xcconfig"; sourceTree = "<group>"; };
 		11160BFBBD1DB4DD43B74504 /* Pods_CoffeeBreak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeeBreak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1D41E521FF27BE004AA85C /* HomeDatasourceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDatasourceController.swift; sourceTree = "<group>"; };
+		7D1D41E621FF27BE004AA85C /* HomePostDatasourceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePostDatasourceCell.swift; sourceTree = "<group>"; };
+		7D1D41E721FF27BE004AA85C /* HomeDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDatasource.swift; sourceTree = "<group>"; };
+		7D1D41E921FF27BE004AA85C /* ActivityDatasourceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityDatasourceController.swift; sourceTree = "<group>"; };
+		7D1D41EB21FF27BE004AA85C /* ForgotPasswordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		7D1D41EC21FF27BE004AA85C /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		7D1D41ED21FF27BE004AA85C /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		7D1D41EF21FF27BE004AA85C /* SharePostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharePostViewController.swift; sourceTree = "<group>"; };
+		7D1D41F021FF27BE004AA85C /* DummyAddPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyAddPostViewController.swift; sourceTree = "<group>"; };
+		7D1D41F221FF27BE004AA85C /* SearchDatasourceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDatasourceCell.swift; sourceTree = "<group>"; };
+		7D1D41F321FF27BE004AA85C /* SearchDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDatasource.swift; sourceTree = "<group>"; };
+		7D1D41F421FF27BE004AA85C /* SearchDatasourceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDatasourceController.swift; sourceTree = "<group>"; };
+		7D1D41F621FF27BE004AA85C /* UserProfileDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileDatasource.swift; sourceTree = "<group>"; };
+		7D1D41F821FF27BE004AA85C /* UserStatsDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStatsDatasource.swift; sourceTree = "<group>"; };
+		7D1D41F921FF27BE004AA85C /* UserStatsDatasourceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStatsDatasourceCell.swift; sourceTree = "<group>"; };
+		7D1D41FA21FF27BE004AA85C /* UserStatsDatasourceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStatsDatasourceController.swift; sourceTree = "<group>"; };
+		7D1D41FB21FF27BE004AA85C /* UserProfileDatasourceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileDatasourceController.swift; sourceTree = "<group>"; };
+		7D1D41FC21FF27BE004AA85C /* UserProfilePostDatasourceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfilePostDatasourceCell.swift; sourceTree = "<group>"; };
+		7D1D41FD21FF27BE004AA85C /* UserProfileHeaderDatasourceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileHeaderDatasourceCell.swift; sourceTree = "<group>"; };
+		7D1D41FF21FF27BE004AA85C /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		7D1D420121FF27BE004AA85C /* ScreenSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenSize.swift; sourceTree = "<group>"; };
+		7D1D420221FF27BE004AA85C /* Setup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setup.swift; sourceTree = "<group>"; };
+		7D1D421A21FF27C8004AA85C /* FirebaseMagicModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseMagicModels.swift; sourceTree = "<group>"; };
+		7D1D421B21FF27C8004AA85C /* FirebaseMagic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseMagic.swift; sourceTree = "<group>"; };
+		7D1D421C21FF27C8004AA85C /* FirebaseMagicExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseMagicExtensions.swift; sourceTree = "<group>"; };
+		7D1D421D21FF27C8004AA85C /* FirebaseMagicSetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseMagicSetup.swift; sourceTree = "<group>"; };
+		7D1D421E21FF27C8004AA85C /* FirebaseMagicService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseMagicService.swift; sourceTree = "<group>"; };
+		7D1D424F21FF2CAA004AA85C /* CoffeeBreakDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeBreakDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1D425021FF2CAA004AA85C /* CoffeeBreak copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CoffeeBreak copy-Info.plist"; path = "/Users/Sergiu/Desktop/apps/CoffeeBreak/CoffeeBreak copy-Info.plist"; sourceTree = "<absolute>"; };
 		7D68B89121FF1CD1008A211F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7D68B89321FF1E6C008A211F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D9A4BDF21FF09B700BF936E /* CoffeeBreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeBreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D9A4BE221FF09B700BF936E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D9A4BE421FF09B700BF936E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D9A4BE721FF09B700BF936E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D9A4BE921FF09B900BF936E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -31,6 +121,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7D1D424421FF2CAA004AA85C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1D424521FF2CAA004AA85C /* Pods_CoffeeBreak.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7D9A4BDC21FF09B700BF936E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,6 +140,119 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D1D41E321FF27BE004AA85C /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D41E421FF27BE004AA85C /* Home */,
+				7D1D41E821FF27BE004AA85C /* Activity */,
+				7D1D41EA21FF27BE004AA85C /* Onboard */,
+				7D1D41EE21FF27BE004AA85C /* AddPost */,
+				7D1D41F121FF27BE004AA85C /* Search */,
+				7D1D41F521FF27BE004AA85C /* Profile */,
+				7D1D41FE21FF27BE004AA85C /* Main */,
+				7D1D420021FF27BE004AA85C /* Helpers */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		7D1D41E421FF27BE004AA85C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D41E521FF27BE004AA85C /* HomeDatasourceController.swift */,
+				7D1D41E621FF27BE004AA85C /* HomePostDatasourceCell.swift */,
+				7D1D41E721FF27BE004AA85C /* HomeDatasource.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7D1D41E821FF27BE004AA85C /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D41E921FF27BE004AA85C /* ActivityDatasourceController.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		7D1D41EA21FF27BE004AA85C /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D41EB21FF27BE004AA85C /* ForgotPasswordController.swift */,
+				7D1D41EC21FF27BE004AA85C /* LoginController.swift */,
+				7D1D41ED21FF27BE004AA85C /* SignUpController.swift */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		7D1D41EE21FF27BE004AA85C /* AddPost */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D41EF21FF27BE004AA85C /* SharePostViewController.swift */,
+				7D1D41F021FF27BE004AA85C /* DummyAddPostViewController.swift */,
+			);
+			path = AddPost;
+			sourceTree = "<group>";
+		};
+		7D1D41F121FF27BE004AA85C /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D41F221FF27BE004AA85C /* SearchDatasourceCell.swift */,
+				7D1D41F321FF27BE004AA85C /* SearchDatasource.swift */,
+				7D1D41F421FF27BE004AA85C /* SearchDatasourceController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		7D1D41F521FF27BE004AA85C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D41F621FF27BE004AA85C /* UserProfileDatasource.swift */,
+				7D1D41F721FF27BE004AA85C /* UserStats */,
+				7D1D41FB21FF27BE004AA85C /* UserProfileDatasourceController.swift */,
+				7D1D41FC21FF27BE004AA85C /* UserProfilePostDatasourceCell.swift */,
+				7D1D41FD21FF27BE004AA85C /* UserProfileHeaderDatasourceCell.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		7D1D41F721FF27BE004AA85C /* UserStats */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D41F821FF27BE004AA85C /* UserStatsDatasource.swift */,
+				7D1D41F921FF27BE004AA85C /* UserStatsDatasourceCell.swift */,
+				7D1D41FA21FF27BE004AA85C /* UserStatsDatasourceController.swift */,
+			);
+			path = UserStats;
+			sourceTree = "<group>";
+		};
+		7D1D41FE21FF27BE004AA85C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D41FF21FF27BE004AA85C /* MainTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7D1D420021FF27BE004AA85C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D420121FF27BE004AA85C /* ScreenSize.swift */,
+				7D1D420221FF27BE004AA85C /* Setup.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7D1D421921FF27C8004AA85C /* FirebaseMagic */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D421A21FF27C8004AA85C /* FirebaseMagicModels.swift */,
+				7D1D421B21FF27C8004AA85C /* FirebaseMagic.swift */,
+				7D1D421C21FF27C8004AA85C /* FirebaseMagicExtensions.swift */,
+				7D1D421D21FF27C8004AA85C /* FirebaseMagicSetup.swift */,
+				7D1D421E21FF27C8004AA85C /* FirebaseMagicService.swift */,
+			);
+			path = FirebaseMagic;
+			sourceTree = "<group>";
+		};
 		7D9A4BD621FF09B700BF936E = {
 			isa = PBXGroup;
 			children = (
@@ -49,6 +260,7 @@
 				7D9A4BE021FF09B700BF936E /* Products */,
 				A01244B739126CA55DAF7B83 /* Pods */,
 				F04C7467C75B1D35EBB848F9 /* Frameworks */,
+				7D1D425021FF2CAA004AA85C /* CoffeeBreak copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				7D9A4BDF21FF09B700BF936E /* CoffeeBreak.app */,
+				7D1D424F21FF2CAA004AA85C /* CoffeeBreakDev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,7 +276,9 @@
 		7D9A4BE121FF09B700BF936E /* CoffeeBreak */ = {
 			isa = PBXGroup;
 			children = (
-				7D9A4BE221FF09B700BF936E /* AppDelegate.swift */,
+				7D1D421921FF27C8004AA85C /* FirebaseMagic */,
+				7D1D41E321FF27BE004AA85C /* Code */,
+				7D68B89321FF1E6C008A211F /* AppDelegate.swift */,
 				7D9A4BE421FF09B700BF936E /* ViewController.swift */,
 				7D9A4BE621FF09B700BF936E /* Main.storyboard */,
 				7D9A4BE921FF09B900BF936E /* Assets.xcassets */,
@@ -94,6 +309,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7D1D422421FF2CAA004AA85C /* CoffeeBreakDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D1D424C21FF2CAA004AA85C /* Build configuration list for PBXNativeTarget "CoffeeBreakDev" */;
+			buildPhases = (
+				7D1D422521FF2CAA004AA85C /* [CP] Check Pods Manifest.lock */,
+				7D1D422621FF2CAA004AA85C /* Sources */,
+				7D1D424421FF2CAA004AA85C /* Frameworks */,
+				7D1D424621FF2CAA004AA85C /* Resources */,
+				7D1D424B21FF2CAA004AA85C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeBreakDev;
+			productName = CoffeeBreak;
+			productReference = 7D1D424F21FF2CAA004AA85C /* CoffeeBreakDev.app */;
+			productType = "com.apple.product-type.application";
+		};
 		7D9A4BDE21FF09B700BF936E /* CoffeeBreak */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D9A4BF121FF09B900BF936E /* Build configuration list for PBXNativeTarget "CoffeeBreak" */;
@@ -142,11 +376,23 @@
 			projectRoot = "";
 			targets = (
 				7D9A4BDE21FF09B700BF936E /* CoffeeBreak */,
+				7D1D422421FF2CAA004AA85C /* CoffeeBreakDev */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7D1D424621FF2CAA004AA85C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1D424721FF2CAA004AA85C /* LaunchScreen.storyboard in Resources */,
+				7D1D424821FF2CAA004AA85C /* GoogleService-Info.plist in Resources */,
+				7D1D424921FF2CAA004AA85C /* Assets.xcassets in Resources */,
+				7D1D424A21FF2CAA004AA85C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7D9A4BDD21FF09B700BF936E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,15 +455,126 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoffeeBreak/Pods-CoffeeBreak-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7D1D422521FF2CAA004AA85C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoffeeBreak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D1D424B21FF2CAA004AA85C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CoffeeBreak/Pods-CoffeeBreak-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoffeeBreak/Pods-CoffeeBreak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7D1D422621FF2CAA004AA85C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1D422721FF2CAA004AA85C /* SearchDatasourceController.swift in Sources */,
+				7D1D422821FF2CAA004AA85C /* UserStatsDatasourceController.swift in Sources */,
+				7D1D422921FF2CAA004AA85C /* MainTabBarController.swift in Sources */,
+				7D1D422A21FF2CAA004AA85C /* ScreenSize.swift in Sources */,
+				7D1D422B21FF2CAA004AA85C /* FirebaseMagicService.swift in Sources */,
+				7D1D422C21FF2CAA004AA85C /* DummyAddPostViewController.swift in Sources */,
+				7D1D422D21FF2CAA004AA85C /* HomeDatasource.swift in Sources */,
+				7D1D422E21FF2CAA004AA85C /* UserStatsDatasourceCell.swift in Sources */,
+				7D1D422F21FF2CAA004AA85C /* Setup.swift in Sources */,
+				7D1D423021FF2CAA004AA85C /* UserProfileHeaderDatasourceCell.swift in Sources */,
+				7D1D423121FF2CAA004AA85C /* FirebaseMagicExtensions.swift in Sources */,
+				7D1D423221FF2CAA004AA85C /* SearchDatasource.swift in Sources */,
+				7D1D423321FF2CAA004AA85C /* AppDelegate.swift in Sources */,
+				7D1D423421FF2CAA004AA85C /* UserProfilePostDatasourceCell.swift in Sources */,
+				7D1D423521FF2CAA004AA85C /* FirebaseMagic.swift in Sources */,
+				7D1D423621FF2CAA004AA85C /* SignUpController.swift in Sources */,
+				7D1D423721FF2CAA004AA85C /* HomePostDatasourceCell.swift in Sources */,
+				7D1D423821FF2CAA004AA85C /* ForgotPasswordController.swift in Sources */,
+				7D1D423921FF2CAA004AA85C /* ActivityDatasourceController.swift in Sources */,
+				7D1D423A21FF2CAA004AA85C /* UserProfileDatasource.swift in Sources */,
+				7D1D423B21FF2CAA004AA85C /* UserProfileDatasourceController.swift in Sources */,
+				7D1D423C21FF2CAA004AA85C /* FirebaseMagicModels.swift in Sources */,
+				7D1D423D21FF2CAA004AA85C /* SharePostViewController.swift in Sources */,
+				7D1D423E21FF2CAA004AA85C /* FirebaseMagicSetup.swift in Sources */,
+				7D1D423F21FF2CAA004AA85C /* LoginController.swift in Sources */,
+				7D1D424021FF2CAA004AA85C /* HomeDatasourceController.swift in Sources */,
+				7D1D424121FF2CAA004AA85C /* UserStatsDatasource.swift in Sources */,
+				7D1D424221FF2CAA004AA85C /* SearchDatasourceCell.swift in Sources */,
+				7D1D424321FF2CAA004AA85C /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7D9A4BDB21FF09B700BF936E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D1D420E21FF27BE004AA85C /* SearchDatasourceController.swift in Sources */,
+				7D1D421221FF27BE004AA85C /* UserStatsDatasourceController.swift in Sources */,
+				7D1D421621FF27BE004AA85C /* MainTabBarController.swift in Sources */,
+				7D1D421721FF27BE004AA85C /* ScreenSize.swift in Sources */,
+				7D1D422321FF27C8004AA85C /* FirebaseMagicService.swift in Sources */,
+				7D1D420B21FF27BE004AA85C /* DummyAddPostViewController.swift in Sources */,
+				7D1D420521FF27BE004AA85C /* HomeDatasource.swift in Sources */,
+				7D1D421121FF27BE004AA85C /* UserStatsDatasourceCell.swift in Sources */,
+				7D1D421821FF27BE004AA85C /* Setup.swift in Sources */,
+				7D1D421521FF27BE004AA85C /* UserProfileHeaderDatasourceCell.swift in Sources */,
+				7D1D422121FF27C8004AA85C /* FirebaseMagicExtensions.swift in Sources */,
+				7D1D420D21FF27BE004AA85C /* SearchDatasource.swift in Sources */,
+				7D68B89421FF1E6C008A211F /* AppDelegate.swift in Sources */,
+				7D1D421421FF27BE004AA85C /* UserProfilePostDatasourceCell.swift in Sources */,
+				7D1D422021FF27C8004AA85C /* FirebaseMagic.swift in Sources */,
+				7D1D420921FF27BE004AA85C /* SignUpController.swift in Sources */,
+				7D1D420421FF27BE004AA85C /* HomePostDatasourceCell.swift in Sources */,
+				7D1D420721FF27BE004AA85C /* ForgotPasswordController.swift in Sources */,
+				7D1D420621FF27BE004AA85C /* ActivityDatasourceController.swift in Sources */,
+				7D1D420F21FF27BE004AA85C /* UserProfileDatasource.swift in Sources */,
+				7D1D421321FF27BE004AA85C /* UserProfileDatasourceController.swift in Sources */,
+				7D1D421F21FF27C8004AA85C /* FirebaseMagicModels.swift in Sources */,
+				7D1D420A21FF27BE004AA85C /* SharePostViewController.swift in Sources */,
+				7D1D422221FF27C8004AA85C /* FirebaseMagicSetup.swift in Sources */,
+				7D1D420821FF27BE004AA85C /* LoginController.swift in Sources */,
+				7D1D420321FF27BE004AA85C /* HomeDatasourceController.swift in Sources */,
+				7D1D421021FF27BE004AA85C /* UserStatsDatasource.swift in Sources */,
+				7D1D420C21FF27BE004AA85C /* SearchDatasourceCell.swift in Sources */,
 				7D9A4BE521FF09B700BF936E /* ViewController.swift in Sources */,
-				7D9A4BE321FF09B700BF936E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +600,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7D1D424D21FF2CAA004AA85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04411BD2AFFB06B0A4CD0703 /* Pods-CoffeeBreak.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R327F4CW86;
+				INFOPLIST_FILE = "CoffeeBreak copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DDEVELOPMENT\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergiupop.CoffeeBreak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D1D424E21FF2CAA004AA85C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBCC85B64D755E2FC5CC56B /* Pods-CoffeeBreak.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R327F4CW86;
+				INFOPLIST_FILE = "CoffeeBreak copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DDEVELOPMENT\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergiupop.CoffeeBreak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		7D9A4BEF21FF09B900BF936E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -400,6 +797,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7D1D424C21FF2CAA004AA85C /* Build configuration list for PBXNativeTarget "CoffeeBreakDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1D424D21FF2CAA004AA85C /* Debug */,
+				7D1D424E21FF2CAA004AA85C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7D9A4BDA21FF09B700BF936E /* Build configuration list for PBXProject "CoffeeBreak" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
